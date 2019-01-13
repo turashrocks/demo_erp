@@ -1,12 +1,10 @@
 
 // Fonts
 //@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 // Variables
 @import 'variables';
-
-// Font-awesome
-@import '~font-awesome/scss/font-awesome';
 
 // Bulma
 @import '~bulma/bulma';
@@ -14,7 +12,15 @@
 // Buefy
 @import '~buefy/src/scss/buefy';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+// Font-awesome
+@import '~font-awesome/scss/font-awesome';
+
+// Import SASS Pages
+@import "overrides";
+@import "helpers";
+//@import "styles";
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
